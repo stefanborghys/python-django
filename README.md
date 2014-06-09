@@ -37,7 +37,9 @@ I got a version from the GitHub project:
 	Add a new django.pth file in folder:  
 	/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/  
 	containing the path to the django framework:  
-	/Users/<user-name>/Documents/projects/github/python-django/django/django-stable-1.7.x  
+	python-django-directory/python-django/django/django-stable-1.7.x  
+	  
+	Don't forget to replace *python-django-directory* by your local directory!
 		
 	source: [https://docs.djangoproject.com/en/1.6/topics/install/#id1](https://docs.djangoproject.com/en/1.6/topics/install/#id1)  
 5. restart IDLE
@@ -50,3 +52,20 @@ I got a version from the GitHub project:
 	<code>1.7b4</code>
 
 # Tutorial 01
+## Generate a project using Django
+Open the terminal and go to the new project's folder using 'cd'.  
+Teminal command:  
+<code>bash</code>  
+<code>python-django-directory/python-django/django/django-stable-1.7.x/django/bin/django-admin.py startproject mysite</code>  
+  
+Don't forget to replace *python-django-directory* by your local directory!
+
+## Generated file overview
+- mysite/ : root directory
+- manage.py : command line utility for project interaction
+- mysite/ (inner) : actual Python project package
+- mysite/\_\_init__.py : empty file, tells Python this directory is a package
+- mysite/settings.py : Django project settings configuration
+- mysite/urls.py : URL declarations
+- mysite/wsgi.py : WSGI web servers entry-point
+
