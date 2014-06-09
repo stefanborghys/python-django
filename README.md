@@ -82,49 +82,37 @@ Terminal command:
 Don't forget to replace *python-django-directory* by your local directory!  
   
 Output:  
-<code>
-Operations to perform:  
-	Synchronize unmigrated apps: admin, contenttypes, auth, sessions  
-  	Apply all migrations: (none)  
-Synchronizing apps without migrations:  
-  	Creating tables...  
-	    Creating table django_admin_log  
-	    Creating table auth_permission  
-	    Creating table auth_group_permissions  
-	    Creating table auth_group  
-	    Creating table auth_user_groups  
-	    Creating table auth_user_user_permissions  
-	    Creating table auth_user  
-	    Creating table django_content_type  
-	    Creating table django_session  
-  	Installing custom SQL...  
-  	Installing indexes...  
-Running migrations:  
-  	No migrations needed.  
+<code>Operations to perform:</code>  
+<code>- Synchronize unmigrated apps: admin, contenttypes, auth, sessions</code>  
+<code>- Apply all migrations: (none)</code>  
+<code>Synchronizing apps without migrations:</code>  
+<code>- Creating tables...</code>  
+<code>- - Creating table django_admin_log</code>  
+<code>- - Creating table auth_permission</code>  
+<code>- - Creating table auth_group_permissions</code>  
+<code>- - Creating table auth_group</code>  
+<code>- - Creating table auth_user_groups</code>  
+<code>- - Creating table auth_user_user_permissions</code>  
+<code>- - Creating table auth_user</code>  
+<code>- - Creating table django_content_type</code>  
+<code>- - Creating table django_session</code>  
+<code>- Installing custom SQL...</code>  
+<code>- Installing indexes...</code>  
+<code>Running migrations:</code>  
+<code>- No migrations needed.</code>  
 </code>  
   
 Question?  
-<code>
-You have installed Django's auth system, and don't have any superusers defined.  
-Would you like to create one now? (yes/no):  
-</code>
-Terminal command:
-<code>yes</code>  
+<code>You have installed Django's auth system, and don't have any superusers defined.  
+Would you like to create one now? (yes/no):</code> <code>yes</code>  
 
 Question?
-<code>Username (leave blank to use 'user-name'):</code>  
-Terminal command:
-<code>admin</code>
+<code>Username (leave blank to use 'user-name'):</code> <code>admin</code>
 
 Question?
-<code>Email address:</code>  
-Terminal command:
-<code>admin@tutorial01.com</code>  
+<code>Email address:</code> <code>admin@tutorial01.com</code>  
   
 Question?
-<code>Password:</code>  
-Terminal command:
-<code>admin01</code>  
+<code>Password:</code> <code>admin01</code>  
   
-Output:  
-<code>Superuser created successfully.</code>
+Output: <code>Superuser created successfully.</code>
