@@ -33,8 +33,7 @@ I got a version from the GitHub project:
 		Another way to find the site-packages directory is by executing following,</br>command:  
 		<code>python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"</code>  
 		  
-		source: [https://docs.djangoproject.com/en/1.6/topics/install/#id1](https://docs.djangoproject.com/en/1.6/topics/install/#id1)
-			
+		source: [https://docs.djangoproject.com/en/1.6/topics/install/#id1](https://docs.djangoproject.com/en/1.6/topics/install/#id1)  
 4. add django's path to Python's search  
 	Add a new django.pth file in folder:  
 	/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/  
