@@ -115,4 +115,12 @@ Question?
 Question?
 <code>Password:</code> <code>admin01</code>  
   
-Output: <code>Superuser created successfully.</code>
+Output: <code>Superuser created successfully.</code>  
+
+## Start the webserver
+Terminal command:  
+<code>bash</code>  
+<code>python-django-directory/python-django/python-django/tutorial01/mysite/manage.py runserver</code>  
+
+The project can now be viewed on [http://127.0.0.1:8000/](http://127.0.0.1:8000/)  
+![Webserver start first landing page](img/tutorial01_start_webserver.png)
