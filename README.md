@@ -13,7 +13,7 @@ I got a version from the GitHub project:
 	Command:  
 	<code>import django</code>  
 	<code>print(django.get_version())</code>
-3. if not, is django on Python's search path?  
+3. if not, is django on Python's search path?
 	* print Python's search path  
 		Command:  
 		<code>import sys</code>  
@@ -27,8 +27,7 @@ I got a version from the GitHub project:
 		We now know that the site-packages directory can be found in:  
 		/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages  
 		  
-		source: [https://docs.python.org/2/install/index.html#modifying-python-s-search-path](https://docs.python.org/2/install/index.html#modifying-python-s-search-path)
-			
+		source: [https://docs.python.org/2/install/index.html#modifying-python-s-search-path](https://docs.python.org/2/install/index.html#modifying-python-s-search-path)  
 	* request Python's site-packages directory  
 		Another way to find the site-packages directory is by executing following,</br>command:  
 		<code>python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"</code>  
