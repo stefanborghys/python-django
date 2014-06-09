@@ -36,19 +36,18 @@ I got a version from the GitHub project:
 		source: [https://docs.djangoproject.com/en/1.6/topics/install/#id1](https://docs.djangoproject.com/en/1.6/topics/install/#id1)
 			
 4. add django's path to Python's search  
-		Add a new django.pth file in folder:  
-		/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/  
-		containing the path to the django framework:  
-		/Users/<user-name>/Documents/projects/github/python-django/django/django-stable-1.7.x  
-		  
-		source: [https://docs.djangoproject.com/en/1.6/topics/install/#id1](https://docs.djangoproject.com/en/1.6/topics/install/#id1)
+	Add a new django.pth file in folder:  
+	/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/site-packages/  
+	containing the path to the django framework:  
+	/Users/<user-name>/Documents/projects/github/python-django/django/django-stable-1.7.x  
+		
+	source: [https://docs.djangoproject.com/en/1.6/topics/install/#id1](https://docs.djangoproject.com/en/1.6/topics/install/#id1)  
 5. restart IDLE
 6. retry step 2  
 	Command:  
-	```python
-	import django  
-	print(django.get_version())  
-	```  
+	<code>import django</code>  
+	<code>print(django.get_version())</code>    
+	  
 	Output:  
 	<code>1.7b4</code>
 
