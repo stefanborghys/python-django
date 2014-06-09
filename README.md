@@ -45,9 +45,10 @@ I got a version from the GitHub project:
 5. restart IDLE
 6. retry step 2  
 	Command:  
-	<code>import django</code>  
-	<code>print(django.get_version())</code>  
-	  
+	```python
+	import django  
+	print(django.get_version())  
+	```  
 	Output:  
 	<code>1.7b4</code>
 
