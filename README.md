@@ -69,3 +69,62 @@ Don't forget to replace *python-django-directory* by your local directory!
 - mysite/urls.py : URL declarations
 - mysite/wsgi.py : WSGI web servers entry-point
 
+## Set the correct timezone
+Your local timezone needs to be set in  mysite/settings.py.  
+A list of correct timezones can be found on: [http://en.wikipedia.org/wiki/List_of_tz_database_time_zones](http://en.wikipedia.org/wiki/List_of_tz_database_time_zones)  
+I had to choose 'Europe/Brussels'.
+
+## Create database tables
+Terminal command:  
+<code>bash</code>  
+<code>python-django-directory/python-django/python-django/tutorial01/mysite/manage.py migrate</code>  
+  
+Don't forget to replace *python-django-directory* by your local directory!  
+  
+Output:  
+<code>
+Operations to perform:  
+	Synchronize unmigrated apps: admin, contenttypes, auth, sessions  
+  	Apply all migrations: (none)  
+Synchronizing apps without migrations:  
+  	Creating tables...  
+	    Creating table django_admin_log  
+	    Creating table auth_permission  
+	    Creating table auth_group_permissions  
+	    Creating table auth_group  
+	    Creating table auth_user_groups  
+	    Creating table auth_user_user_permissions  
+	    Creating table auth_user  
+	    Creating table django_content_type  
+	    Creating table django_session  
+  	Installing custom SQL...  
+  	Installing indexes...  
+Running migrations:  
+  	No migrations needed.  
+</code>  
+  
+Question?  
+<code>
+You have installed Django's auth system, and don't have any superusers defined.  
+Would you like to create one now? (yes/no):  
+</code>
+Terminal command:
+<code>yes</code>  
+
+Question?
+<code>Username (leave blank to use 'user-name'):</code>  
+Terminal command:
+<code>admin</code>
+
+Question?
+<code>Email address:</code>  
+Terminal command:
+<code>admin@tutorial01.com</code>  
+  
+Question?
+<code>Password:</code>  
+Terminal command:
+<code>admin01</code>  
+  
+Output:  
+<code>Superuser created successfully.</code>
