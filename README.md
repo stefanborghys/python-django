@@ -118,9 +118,23 @@ Question?
 Output: <code>Superuser created successfully.</code>  
 
 ## Start the webserver
+Start the server on localhost, default port 8000:  
 Terminal command:  
 <code>bash</code>  
 <code>python-django-directory/python-django/python-django/tutorial01/mysite/manage.py runserver</code>  
-
+  
 The project can now be viewed on [http://127.0.0.1:8000/](http://127.0.0.1:8000/)  
-![Webserver start first landing page](img/tutorial01_start_webserver.png)
+![Webserver start first landing page](https://github.com/stefanborghys/python-django/raw/master/img/tutorial01_start_webserver.png)  
+  
+The server does not have to be restarted for code changes to take effect.    
+Only in some cases when for example adding files, a restart is needed!  
+    
+Start the server on localhost, specific port (example: 8080):  
+Terminal command:  
+<code>bash</code>  
+<code>python-django-directory/python-django/python-django/tutorial01/mysite/manage.py runserver 8080</code>  
+  
+Start the server on specific ip and port (example: 192.168.1.10:8080):  
+Terminal command:  
+<code>bash</code>  
+<code>python-django-directory/python-django/python-django/tutorial01/mysite/manage.py runserver 192.168.1.10:8080</code>
